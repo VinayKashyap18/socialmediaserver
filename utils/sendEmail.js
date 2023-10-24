@@ -30,7 +30,7 @@ export const sendVerificationEmail = async(user, res) => {
         to: email,
         subject: "Email Verification",
 
-        html: `<div style='font-family: Arial, sans-serif; font-size: 20px; color: #333; background-color:#d5d4d4;'> <h1 style="color: rgb(8,56,188);"> Please verify your email</h1>
+        html: `<div style='font-family: Arial, sans-serif; font-size: 20px; color: #333; background-color:#d5d4d4;'> <h1 style="color: rgb(255,127,80);"> Please verify your email</h1>
         <hr>
         <h4>Hi ${firstName},</h4>
         <p>Welcome to our Social Media Platform</p>
@@ -44,7 +44,7 @@ export const sendVerificationEmail = async(user, res) => {
       
         <div style="margin-top: 20px;">
           <h5>Best Regards</h5>
-          <h5>Team ShareFun </h5>
+          <h5>Team Photo Puls </h5>
         </div>
       </div>
       `,
